@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="box1">
+            <label for="number"><b>Enter the First Number:</b></label>
+            <input class="i1" autocomplete="off" id="number" />
+        </div>
+        <div class="box2">    
+            <label for="Number"><b>Enter the second Number:</b></label>
+            <input class="i2"   autocomplete="off"  id="Number"/>
+        </div>
+        <div class="box3">    
+            <b>Result:</b><input class="i3" id="res" autocomplete="off" disabled />
+        </div>
+        
+        
+        <h3><b>Choose the operation you want to perform:</b></h3>
+        <div class="box4">
+            <button onclick="add()">Addition</button>  
+            <button onclick="sub()">Subtraction</button>
+            <button onclick="mul()">Multiplication</button>
+            <button onclick="div()">Division</button>
+        </div>
+    </div>
+
+    <script src="project.js"></script>
+</body>
+</html>

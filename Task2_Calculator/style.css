@@ -1,0 +1,79 @@
+.container{
+    margin:20px;
+    width:1200px;
+    height: 300px;
+    border:2px solid red;
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+    top:200px;
+    left:100px;
+    background: linear-gradient(to right,lightblue,lightgreen);
+    border-top-color:red;
+    border-bottom-color:green;
+    border-left-color: blue;
+    border-right-color: orange;
+
+}
+
+.box3{
+    position: relative;
+    top:80px;
+    right:300px;
+    margin-bottom: 100px;
+    
+}
+.box2{
+    
+    position: relative;
+    left:300px;
+}
+
+.box1{
+    position: relative;
+    left:100px;
+}
+
+.box4{
+    position: relative;
+    top:20px;
+    left:100px;
+    
+}
+
+
+.i3{
+    background-color: white;
+}
+.i1, .i2, .i3 {
+    height: 30px;
+    margin: 20px;
+    border: 2px solid #ccc; 
+    border-radius: 5px; 
+    padding: 5px; 
+    transition: border-color 0.3s; 
+}
+.i1:focus, .i2:focus, .i3:focus {
+    border-color: dodgerblue; 
+    outline: none; 
+}
+
+button {
+    height: 40px;
+    margin: 10px;
+    padding: 0 20px; 
+    background-color: dodgerblue; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: deepskyblue; 
+}
+
+button:active {
+    background-color: navy; 
+}
